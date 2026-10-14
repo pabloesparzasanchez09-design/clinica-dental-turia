@@ -37,7 +37,6 @@ body {
   font-size: 1rem;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
-  --alto-demo: 1.75rem;
 }
 
 html {
@@ -224,7 +223,7 @@ a {
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  min-height: calc(100svh - var(--alto-cabecera) - var(--alto-demo));
+  min-height: calc(100svh - var(--alto-cabecera));
   max-width: var(--ancho-max);
   margin: 0 auto;
 }
@@ -1805,7 +1804,7 @@ a {
   .hero {
     display: flex;
     flex-direction: column;
-    min-height: calc(100svh - var(--alto-cabecera) - var(--alto-demo));
+    min-height: calc(100svh - var(--alto-cabecera));
   }
 
   .hero__imagen {
@@ -2308,20 +2307,4 @@ a {
   .galeria__mosaico li:hover img {
     transform: none;
   }
-}
-
-/* ---------- Franja de demostración ---------- */
-
-.demo {
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: var(--alto-demo);
-  background: var(--azul);
-  color: var(--blanco);
-  font-size: 0.8125rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  text-align: center;
 }
