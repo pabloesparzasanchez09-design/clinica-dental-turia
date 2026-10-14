@@ -1,0 +1,761 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clínica Dental Turia · Dentista en Valencia con primera visita gratis</title>
+  <meta name="description" content="Dentista en Valencia (Russafa) para toda la familia. Primera visita de revisión y diagnóstico gratis, plan y precio cerrado por escrito y trato cercano, sin prisas.">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#1f7a7a">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="Clínica Dental Turia">
+  <meta property="og:title" content="Clínica Dental Turia · Dentista en Valencia con primera visita gratis">
+  <meta property="og:description" content="Revisión y diagnóstico gratis, plan y precio cerrado por escrito y el mismo equipo siempre. Pide tu cita en Valencia.">
+  <meta property="og:url" content="https://clinica-dental-turia.vercel.app/">
+  <meta property="og:image" content="https://clinica-dental-turia.vercel.app/img/hero-clinica.webp">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "Clínica Dental Turia",
+  "description": "Clínica dental en Valencia para toda la familia: odontología general, odontopediatría, ortodoncia, implantes, estética dental y urgencias, con plan y precio cerrado por escrito.",
+  "url": "https://clinica-dental-turia.vercel.app/",
+  "image": "https://clinica-dental-turia.vercel.app/img/hero-clinica.webp",
+  "telephone": "+34600000000",
+  "email": "hola@clinicadentalturia.example",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Calle Ficticia 1",
+    "postalCode": "46004",
+    "addressLocality": "Valencia",
+    "addressRegion": "Comunitat Valenciana",
+    "addressCountry": "ES"
+  },
+  "areaServed": "Valencia y su área metropolitana",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "09:00",
+      "closes": "13:00"
+    }
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Marta Climent",
+    "jobTitle": "Odontóloga"
+  },
+  "sameAs": [
+    "https://www.instagram.com/clinicadentalturia"
+  ]
+}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="img/hero-clinica.webp" imagesrcset="img/hero-clinica-800.webp 800w, img/hero-clinica.webp 1600w" imagesizes="(max-width: 860px) 100vw, 50vw" fetchpriority="high">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <svg class="sprite" aria-hidden="true">
+    <symbol id="icono-telefono" viewBox="0 0 24 24">
+      <path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z" fill="currentColor"/>
+    </symbol>
+    <symbol id="icono-email" viewBox="0 0 24 24">
+      <rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="m3.5 6.5 8.5 6.5 8.5-6.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icono-instagram" viewBox="0 0 24 24">
+      <rect x="4" y="4" width="16" height="16" rx="4.5" fill="none" stroke="currentColor" stroke-width="1.7"/>
+      <circle cx="12" cy="12" r="3.6" fill="none" stroke="currentColor" stroke-width="1.7"/>
+      <circle cx="16.8" cy="7.2" r="1.1" fill="currentColor"/>
+    </symbol>
+    <symbol id="icono-google" viewBox="0 0 48 48">
+      <path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.4-.4-3.5z"/>
+      <path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/>
+      <path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2A11.9 11.9 0 0 1 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/>
+      <path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3a12 12 0 0 1-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/>
+    </symbol>
+  </svg>
+
+  <p class="demo">Web de demostración: empresa ficticia</p>
+
+  <header class="cabecera">
+    <div class="cabecera__interior">
+      <a class="logo" href="#inicio" aria-label="Clínica Dental Turia, inicio">
+        <span class="logo__marca" aria-hidden="true">T</span>
+        <span class="logo__texto">Clínica Dental <strong>Turia</strong></span>
+      </a>
+
+      <nav class="menu" aria-label="Principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#como-trabajamos">Cómo trabajamos</a>
+        <a href="#galeria">Galería</a>
+        <a href="#preguntas">Preguntas</a>
+      </nav>
+
+      <div class="cabecera__acciones">
+        <a class="telefono" href="tel:+34600000000">
+          <span class="telefono__icono" aria-hidden="true">
+            <svg><use href="#icono-telefono"/></svg>
+          </span>
+          <span class="telefono__numero">600 000 000</span>
+        </a>
+        <a class="boton boton--compacto" href="#cita"><span class="boton__largo">Pide cita gratis</span><span class="boton__corto">Pide cita</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero__texto">
+        <p class="valoracion">
+          <svg class="valoracion__google" aria-hidden="true"><use href="#icono-google"/></svg>
+          <span class="estrellas" aria-hidden="true">★★★★★</span>
+          <span><strong>4,8/5</strong> en 214 reseñas</span>
+        </p>
+
+        <h1 class="hero__titulo">Consigue una sonrisa de la que estés orgulloso/a, sin miedo ni sorpresas en&nbsp;el&nbsp;precio</h1>
+
+        <p class="hero__entradilla">¿Miedo al dentista o a que te cobren de más? Te hacemos la primera revisión gratis, te damos el plan y el precio cerrado por escrito, y te atiende siempre el mismo equipo, con calma y explicándote cada paso.</p>
+
+        <a class="boton boton--grande" href="#cita">Pide tu primera visita 100&nbsp;% gratis</a>
+
+        <ul class="garantias">
+          <li>Revisión gratis</li>
+          <li>Precio por escrito</li>
+          <li>Sin prisas</li>
+        </ul>
+      </div>
+
+      <figure class="hero__imagen">
+        <img src="img/hero-clinica.webp" srcset="img/hero-clinica-800.webp 800w, img/hero-clinica.webp 1600w" sizes="(max-width: 860px) 100vw, 50vw" width="1600" height="900" fetchpriority="high" alt="Pareja sonriendo con una gran sonrisa">
+      </figure>
+    </section>
+
+    <section class="resenas" aria-label="Opiniones de pacientes en Google">
+      <ul class="resenas__lista">
+        <li class="resena">
+          <blockquote class="resena__cita">«Tenía pánico al dentista y me explicaron todo antes de empezar. Salí sin ningún miedo.»</blockquote>
+          <div class="resena__autor">
+            <span class="avatar resena__avatar" aria-hidden="true">MG<svg><use href="#icono-google"/></svg></span>
+            <span>
+              <span class="estrellas" role="img" aria-label="5 de 5 estrellas">★★★★★</span>
+              <span class="resena__nombre">Marta G. · Russafa</span>
+            </span>
+          </div>
+        </li>
+        <li class="resena">
+          <blockquote class="resena__cita">«El precio que me dieron por escrito fue el que pagué. Ni un euro más, y con financiación sin intereses.»</blockquote>
+          <div class="resena__autor">
+            <span class="avatar resena__avatar" aria-hidden="true">PR<svg><use href="#icono-google"/></svg></span>
+            <span>
+              <span class="estrellas" role="img" aria-label="5 de 5 estrellas">★★★★★</span>
+              <span class="resena__nombre">Pablo R. · Benimaclet</span>
+            </span>
+          </div>
+        </li>
+        <li class="resena">
+          <blockquote class="resena__cita">«Siempre me atiende la misma doctora, que ya conoce mi caso. Se nota que no tienen prisa.»</blockquote>
+          <div class="resena__autor">
+            <span class="avatar resena__avatar" aria-hidden="true">LS<svg><use href="#icono-google"/></svg></span>
+            <span>
+              <span class="estrellas" role="img" aria-label="5 de 5 estrellas">★★★★★</span>
+              <span class="resena__nombre">Lucía S. · Patraix</span>
+            </span>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="opiniones" id="pacientes">
+      <p class="valoracion">
+        <svg class="valoracion__google" aria-hidden="true"><use href="#icono-google"/></svg>
+        <span class="estrellas" aria-hidden="true">★★★★★</span>
+        <span><strong>4,8/5</strong> en 214 reseñas</span>
+      </p>
+      <h2 class="titulo-seccion opiniones__titulo">Más de 6.000 pacientes en Valencia ya sonríen sin complejos</h2>
+
+      <ul class="opiniones__lista">
+        <li class="opinion">
+          <img class="opinion__foto" src="img/resenas/miedo.webp" width="800" height="533" loading="lazy" decoding="async" alt="Mujer sonriendo tranquila y sin miedo">
+          <div class="opinion__cuerpo">
+            <span class="estrellas" role="img" aria-label="5 de 5 estrellas">★★★★★</span>
+            <h3 class="opinion__titulo">«Pensé que me dolería y ni me enteré»</h3>
+            <p class="opinion__texto">Llevaba años sin ir por miedo. Me explicaron cada paso antes de hacerlo y fueron tan amables que volví a la revisión siguiente sin nervios.</p>
+            <footer class="opinion__autor">
+              <span class="avatar" aria-hidden="true">MG</span>
+              <span class="opinion__nombre">Marta G.<small>Russafa</small></span>
+              <svg class="opinion__google" role="img" aria-label="Reseña de Google"><use href="#icono-google"/></svg>
+            </footer>
+          </div>
+        </li>
+        <li class="opinion">
+          <img class="opinion__foto" src="img/resenas/precio.webp" width="800" height="533" loading="lazy" decoding="async" alt="Hombre sonriendo con camisa naranja">
+          <div class="opinion__cuerpo">
+            <span class="estrellas" role="img" aria-label="5 de 5 estrellas">★★★★★</span>
+            <h3 class="opinion__titulo">«El precio fue justo el que me dijeron»</h3>
+            <p class="opinion__texto">Me temía que me fueran añadiendo cosas por el camino. La doctora me dio el plan por escrito el primer día y no cambió ni un euro.</p>
+            <footer class="opinion__autor">
+              <span class="avatar" aria-hidden="true">PR</span>
+              <span class="opinion__nombre">Pablo R.<small>Benimaclet</small></span>
+              <svg class="opinion__google" role="img" aria-label="Reseña de Google"><use href="#icono-google"/></svg>
+            </footer>
+          </div>
+        </li>
+        <li class="opinion">
+          <img class="opinion__foto" src="img/resenas/ortodoncia.webp" width="800" height="533" loading="lazy" decoding="async" alt="Mujer joven riendo con una gran sonrisa">
+          <div class="opinion__cuerpo">
+            <span class="estrellas" role="img" aria-label="5 de 5 estrellas">★★★★★</span>
+            <h3 class="opinion__titulo">«Por fin sonrío sin taparme la boca»</h3>
+            <p class="opinion__texto">Hice la ortodoncia invisible y casi nadie se dio cuenta. El escáner sin moldes fue muy cómodo y las revisiones, siempre con la misma gente.</p>
+            <footer class="opinion__autor">
+              <span class="avatar" aria-hidden="true">LS</span>
+              <span class="opinion__nombre">Lucía S.<small>Patraix</small></span>
+              <svg class="opinion__google" role="img" aria-label="Reseña de Google"><use href="#icono-google"/></svg>
+            </footer>
+          </div>
+        </li>
+        <li class="opinion">
+          <img class="opinion__foto" src="img/resenas/familia.webp" width="800" height="533" loading="lazy" decoding="async" alt="Padre sonriendo junto a su hija">
+          <div class="opinion__cuerpo">
+            <span class="estrellas" role="img" aria-label="5 de 5 estrellas">★★★★★</span>
+            <h3 class="opinion__titulo">«Mis hijos ya no tienen miedo»</h3>
+            <p class="opinion__texto">Vamos toda la familia. A los pequeños les enseñan todo jugando y ahora piden ir a la revisión. Eso no tiene precio.</p>
+            <footer class="opinion__autor">
+              <span class="avatar" aria-hidden="true">CB</span>
+              <span class="opinion__nombre">Carlos B.<small>Campanar</small></span>
+              <svg class="opinion__google" role="img" aria-label="Reseña de Google"><use href="#icono-google"/></svg>
+            </footer>
+          </div>
+        </li>
+        <li class="opinion">
+          <img class="opinion__foto" src="img/resenas/implante.webp" width="800" height="533" loading="lazy" decoding="async" alt="Mujer mayor sonriendo con confianza">
+          <div class="opinion__cuerpo">
+            <span class="estrellas" role="img" aria-label="5 de 5 estrellas">★★★★★</span>
+            <h3 class="opinion__titulo">«Volví a comer de todo»</h3>
+            <p class="opinion__texto">Me pusieron un implante y me explicaron todo el proceso con calma. Tuve el plan, el precio y la financiación claros desde el principio.</p>
+            <footer class="opinion__autor">
+              <span class="avatar" aria-hidden="true">RM</span>
+              <span class="opinion__nombre">Rosa M.<small>Mestalla</small></span>
+              <svg class="opinion__google" role="img" aria-label="Reseña de Google"><use href="#icono-google"/></svg>
+            </footer>
+          </div>
+        </li>
+        <li class="opinion">
+          <img class="opinion__foto" src="img/resenas/urgencia.webp" width="800" height="533" loading="lazy" decoding="async" alt="Joven sonriendo aliviado">
+          <div class="opinion__cuerpo">
+            <span class="estrellas" role="img" aria-label="5 de 5 estrellas">★★★★★</span>
+            <h3 class="opinion__titulo">«Me atendieron el mismo día»</h3>
+            <p class="opinion__texto">Me dolía una muela un sábado y llamé por la mañana. A mediodía ya estaba en la clínica y con el problema resuelto.</p>
+            <footer class="opinion__autor">
+              <span class="avatar" aria-hidden="true">AT</span>
+              <span class="opinion__nombre">Andrés T.<small>Algirós</small></span>
+              <svg class="opinion__google" role="img" aria-label="Reseña de Google"><use href="#icono-google"/></svg>
+            </footer>
+          </div>
+        </li>
+      </ul>
+
+      <a class="boton boton--grande" href="#cita">Pide tu primera visita 100&nbsp;% gratis</a>
+
+      <p class="prueba-social">
+        <span class="pila-avatares" aria-hidden="true">
+          <span class="avatar">MG</span><span class="avatar">PR</span><span class="avatar">LS</span>
+        </span>
+        Únete a los más de 6.000 pacientes que ya confían en nosotros
+      </p>
+    </section>
+
+    <section class="problema" id="por-que-turia">
+      <svg class="problema__adorno" viewBox="0 0 32 32" aria-hidden="true">
+        <rect x="2" y="2" width="28" height="28" rx="7"/>
+        <path d="M9.5 10.5h13M16 10.5v12"/>
+      </svg>
+
+      <h2 class="titulo-seccion">Un dentista que te explica todo, te da el precio por escrito y no te hace sentir mal por tener miedo</h2>
+
+      <div class="problema__texto">
+        <p>Si te da pereza ir al dentista, es por algo: miedo a que duela, a que te propongan tratamientos que no necesitas y a descubrir el precio al final. Las grandes cadenas te cambian de profesional en cada cita, y en muchas clínicas pequeñas nadie te dice cuánto va a costar ni cómo es el tratamiento.</p>
+        <p>En Clínica Dental Turia <span class="resaltado">te hacemos una primera revisión gratis</span> y la Dra. Climent te explica con calma qué necesitas y qué no. Te damos el plan y el precio cerrado por escrito antes de empezar, y te atiende siempre el mismo equipo. Y pedir tu primera visita es 100&nbsp;% gratis y sin compromiso.</p>
+      </div>
+
+      <a class="boton boton--grande" href="#cita">Pide tu primera visita 100&nbsp;% gratis</a>
+    </section>
+
+    <div class="ventajas-fondo">
+    <section class="ventajas" id="ventajas" aria-label="Por qué elegir Clínica Dental Turia">
+      <article class="ventaja">
+        <img class="ventaja__foto" src="img/ventajas/plan.webp" width="1000" height="563" loading="lazy" decoding="async" alt="Doctor y paciente conversando con calma en la consulta">
+        <div class="ventaja__texto">
+          <p class="antetitulo">Sin sorpresas ni letra pequeña</p>
+          <h2 class="ventaja__titulo">Sabes qué necesitas y cuánto cuesta antes de empezar</h2>
+          <p>En la primera visita la Dra. Climent te revisa, te hace una radiografía digital si hace falta y te prepara un plan de tratamiento con el precio cerrado por escrito. Puedes pensarlo con calma, sin presión. Y la primera revisión es 100&nbsp;% gratis y sin compromiso.</p>
+          <a class="boton" href="#cita">Pide tu revisión cerrada y gratis</a>
+        </div>
+      </article>
+
+      <article class="ventaja">
+        <img class="ventaja__foto" src="img/ventajas/doctora.webp" width="1000" height="563" loading="lazy" decoding="async" alt="Doctora sonriendo en su clínica">
+        <div class="ventaja__texto">
+          <p class="antetitulo">Siempre la misma doctora y el mismo equipo</p>
+          <h2 class="ventaja__titulo">Te conocemos por tu nombre, no por tu número de historia</h2>
+          <p>La Dra. Climent lleva 12 años en Russafa y cuida a tu familia como a la suya. No vas cambiando de profesional como en las grandes cadenas: la misma persona conoce tu caso, tus miedos y tu historial en cada cita.</p>
+          <a class="boton" href="#cita">Quiero mi revisión gratis</a>
+        </div>
+      </article>
+
+      <article class="ventaja">
+        <img class="ventaja__foto" src="img/ventajas/tecnologia.webp" width="1000" height="667" loading="lazy" decoding="async" alt="Dentista sonriendo en su consulta">
+        <div class="ventaja__texto">
+          <p class="antetitulo">Sin prisas y sin miedo</p>
+          <h2 class="ventaja__titulo">Un trato tranquilo, con tecnología que te hace todo más cómodo</h2>
+          <p>Trabajamos con escáner intraoral, sin moldes incómodos, y con radiografía digital de baja radiación. Te explicamos cada paso antes de hacerlo y cuidamos que no te duela. Si tienes miedo, avísanos: vamos a tu ritmo.</p>
+          <a class="boton" href="#cita">Pide tu primera visita gratis</a>
+        </div>
+      </article>
+    </section>
+    </div>
+
+    <section class="proceso" id="como-trabajamos">
+      <h2 class="titulo-seccion proceso__titulo">Tu sonrisa en 4 pasos, de la primera visita gratis a tu revisión de control</h2>
+
+      <ol class="proceso__pasos">
+        <li class="paso">
+          <img class="paso__foto" src="img/pasos/1-visita.webp" width="900" height="600" loading="lazy" decoding="async" alt="Mujer sonriendo en la clínica dental">
+          <div class="paso__marca" aria-hidden="true"><span class="paso__numero">1</span></div>
+          <h3 class="paso__titulo">Primera visita gratis y sin compromiso</h3>
+          <p class="paso__texto">La Dra. Climent te revisa y te escucha. No pagas nada y no te comprometes a nada.</p>
+        </li>
+        <li class="paso">
+          <img class="paso__foto" src="img/pasos/2-plan.webp" width="900" height="600" loading="lazy" decoding="async" alt="Dentista sonriendo mientras habla con un paciente">
+          <div class="paso__marca" aria-hidden="true"><span class="paso__numero">2</span></div>
+          <h3 class="paso__titulo">Plan y precio cerrado por escrito</h3>
+          <p class="paso__texto">Te explicamos qué necesitas, en qué orden y cuánto cuesta. Si no cambias nada, el precio no se mueve.</p>
+        </li>
+        <li class="paso">
+          <img class="paso__foto" src="img/pasos/3-tratamiento.webp" width="900" height="600" loading="lazy" decoding="async" alt="Paciente relajada y sonriendo durante su tratamiento">
+          <div class="paso__marca" aria-hidden="true"><span class="paso__numero">3</span></div>
+          <h3 class="paso__titulo">Tratamiento con calma y el mismo equipo</h3>
+          <p class="paso__texto">Vamos a tu ritmo, te explicamos cada paso y cuidamos que no sientas dolor.</p>
+        </li>
+        <li class="paso">
+          <img class="paso__foto" src="img/pasos/4-sonrisa.webp" width="900" height="506" loading="lazy" decoding="async" alt="Pareja sonriendo contenta">
+          <div class="paso__marca" aria-hidden="true"><span class="paso__numero">4</span></div>
+          <h3 class="paso__titulo">Tu sonrisa y revisiones de control</h3>
+          <p class="paso__texto">Disfruta de tu sonrisa y te avisamos para tus revisiones, para que se mantenga sana mucho tiempo.</p>
+        </li>
+      </ol>
+
+      <a class="boton boton--grande" href="#cita">Pide tu primera visita 100&nbsp;% gratis</a>
+
+      <p class="prueba-social">
+        <span class="pila-avatares" aria-hidden="true">
+          <span class="avatar">MG</span><span class="avatar">PR</span><span class="avatar">LS</span>
+        </span>
+        Únete a los más de 6.000 pacientes que ya confían en nosotros
+      </p>
+    </section>
+
+    <section class="opiniones opiniones--texto" id="testimonios">
+      <h2 class="titulo-seccion opiniones__titulo">Así de fácil y tranquilo es ir al dentista, según quienes ya lo han hecho</h2>
+
+      <ul class="opiniones__lista">
+        <li class="opinion">
+          <div class="opinion__cuerpo">
+            <span class="estrellas" role="img" aria-label="5 de 5 estrellas">★★★★★</span>
+            <h3 class="opinion__titulo">«Perdí el miedo de toda la vida»</h3>
+            <p class="opinion__texto">«Pedí la primera revisión gratis casi sin ganas y salí encantada. La doctora me explicó todo, me dio un plan por escrito con el precio y no me presionó para nada. Ahora voy a mis revisiones sin nervios.»</p>
+            <footer class="opinion__autor">
+              <span class="avatar" aria-hidden="true">RP</span>
+              <span class="opinion__nombre">Raquel P.<small>El Carmen</small></span>
+              <svg class="opinion__google" role="img" aria-label="Reseña de Google"><use href="#icono-google"/></svg>
+            </footer>
+          </div>
+        </li>
+        <li class="opinion">
+          <div class="opinion__cuerpo">
+            <span class="estrellas" role="img" aria-label="5 de 5 estrellas">★★★★★</span>
+            <h3 class="opinion__titulo">«Un sitio donde van mis padres, yo y mis hijos»</h3>
+            <p class="opinion__texto">«Toda la familia vamos a la misma clínica y siempre nos atiende la misma gente. Se acuerdan de cada uno, tratan con mucho cariño a los pequeños y los precios son claros desde el principio. Muy recomendable.»</p>
+            <footer class="opinion__autor">
+              <span class="avatar" aria-hidden="true">FL</span>
+              <span class="opinion__nombre">Fernando L.<small>Paterna</small></span>
+              <svg class="opinion__google" role="img" aria-label="Reseña de Google"><use href="#icono-google"/></svg>
+            </footer>
+          </div>
+        </li>
+        <li class="opinion">
+          <div class="opinion__cuerpo">
+            <span class="estrellas" role="img" aria-label="5 de 5 estrellas">★★★★★</span>
+            <h3 class="opinion__titulo">«Presupuesto claro y sin presiones»</h3>
+            <p class="opinion__texto">«Fui con dudas porque ya me habían dado un presupuesto carísimo en otro sitio. Aquí la primera visita fue gratis, me explicaron las opciones y pude decidir con calma. Pagué exactamente lo que me dijeron.»</p>
+            <footer class="opinion__autor">
+              <span class="avatar" aria-hidden="true">SD</span>
+              <span class="opinion__nombre">Sandra y Dani<small>Burjassot</small></span>
+              <svg class="opinion__google" role="img" aria-label="Reseña de Google"><use href="#icono-google"/></svg>
+            </footer>
+          </div>
+        </li>
+      </ul>
+
+      <a class="boton boton--grande" href="#cita">Pide tu primera visita 100&nbsp;% gratis</a>
+
+      <p class="prueba-social">
+        <span class="pila-avatares" aria-hidden="true">
+          <span class="avatar">RP</span><span class="avatar">FL</span><span class="avatar">SD</span>
+        </span>
+        Primera visita gratis, sin compromiso
+      </p>
+    </section>
+
+    <section class="comparativa" id="comparativa">
+      <h2 class="titulo-seccion comparativa__titulo">Consigue una sonrisa sana y con la primera visita gratis, mejor que en cualquier otra clínica</h2>
+
+      <div class="tabla-contenedor">
+        <table class="tabla">
+          <caption class="sr-only">Comparativa entre Clínica Dental Turia, las grandes cadenas dentales y otras clínicas sin plan por escrito</caption>
+          <thead>
+            <tr>
+              <td class="tabla__esquina"></td>
+              <th scope="col" class="tabla__turia">
+                <span class="tabla__logo">
+                  <span class="tabla__marca" aria-hidden="true">T</span>
+                  Turia
+                </span>
+              </th>
+              <th scope="col">Grandes cadenas dentales</th>
+              <th scope="col">Otras clínicas sin plan por escrito</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Primera visita</th>
+              <td class="tabla__turia si">100&nbsp;% gratis y sin compromiso</td>
+              <td class="no">Gancho de «gratis» que acaba en tratamientos caros</td>
+              <td class="no">A menudo hay que pagar la revisión</td>
+            </tr>
+            <tr>
+              <th scope="row">Precio</th>
+              <td class="tabla__turia si">Cerrado por escrito: no cambia</td>
+              <td class="no">Sube con extras añadidos por el camino</td>
+              <td class="no">Se conoce al final, sin nada firmado</td>
+            </tr>
+            <tr>
+              <th scope="row">Quién te atiende</th>
+              <td class="tabla__turia si">La misma doctora y el mismo equipo</td>
+              <td class="no">Un profesional distinto en cada cita</td>
+              <td class="no">Depende del día y de quién esté</td>
+            </tr>
+            <tr>
+              <th scope="row">Si tienes miedo</th>
+              <td class="tabla__turia si">Vamos a tu ritmo y te explicamos cada paso</td>
+              <td class="no">Citas cortas y con prisas</td>
+              <td class="no">Poco tiempo para explicarte nada</td>
+            </tr>
+            <tr>
+              <th scope="row">Comodidad</th>
+              <td class="tabla__turia si">Escáner sin moldes y radiografía digital</td>
+              <td class="no">Depende del centro y del tratamiento</td>
+              <td class="no">Moldes tradicionales e incómodos</td>
+            </tr>
+            <tr>
+              <th scope="row">Urgencias y pago</th>
+              <td class="tabla__turia si">Cita el mismo día y financiación sin intereses</td>
+              <td class="no">Financiación con intereses</td>
+              <td class="no">Sin ayuda para pagar a plazos</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <a class="boton boton--grande" href="#cita">Pide tu primera visita 100&nbsp;% gratis</a>
+
+      <p class="prueba-social">
+        <span class="pila-avatares" aria-hidden="true">
+          <span class="avatar">MG</span><span class="avatar">PR</span><span class="avatar">LS</span>
+        </span>
+        Únete a los más de 6.000 pacientes que ya confían en nosotros
+      </p>
+    </section>
+
+    <section class="extras" id="extras">
+      <h2 class="titulo-seccion extras__titulo">Todo lo que incluye tu primera visita gratis, para cuidar tu sonrisa sin preocuparte de nada</h2>
+
+      <ul class="extras__lista">
+        <li>
+          <img class="extra__foto" src="img/extras/revision.webp" width="800" height="450" loading="lazy" decoding="async" alt="Mujer sonriendo con una gran sonrisa">
+          <h3 class="extra__titulo">Revisión y diagnóstico 100&nbsp;% gratis</h3>
+          <p class="extra__texto">La Dra. Climent te revisa, te explica lo que ve y te dice qué necesitas, sin cobrarte ni comprometerte a nada.</p>
+        </li>
+        <li>
+          <img class="extra__foto" src="img/pasos/2-plan.webp" width="900" height="600" loading="lazy" decoding="async" alt="Dentista sonriendo mientras habla con un paciente">
+          <h3 class="extra__titulo">Plan y precio cerrado por escrito</h3>
+          <p class="extra__texto">Todo detallado y por escrito antes de empezar. Si no cambias nada, el precio final es el que te dijimos.</p>
+        </li>
+        <li>
+          <img class="extra__foto" src="img/extras/miedo.webp" width="800" height="533" loading="lazy" decoding="async" alt="Paciente sonriendo tranquila en la clínica dental">
+          <h3 class="extra__titulo">Atención si tienes miedo</h3>
+          <p class="extra__texto">Te explicamos cada paso, vamos a tu ritmo y paramos cuando lo necesites. Nadie te va a meter prisa.</p>
+        </li>
+        <li>
+          <img class="extra__foto" src="img/extras/tecnologia.webp" width="800" height="533" loading="lazy" decoding="async" alt="Hombre con gafas sonriendo en la clínica">
+          <h3 class="extra__titulo">Escáner sin moldes y radiografía digital</h3>
+          <p class="extra__texto">Sin moldes incómodos y con una radiografía de baja radiación, para ver tu caso con claridad y en menos tiempo.</p>
+        </li>
+        <li>
+          <img class="extra__foto" src="img/extras/financiacion.webp" width="800" height="450" loading="lazy" decoding="async" alt="Dentista y pareja sonriendo en la clínica">
+          <h3 class="extra__titulo">Financiación sin intereses</h3>
+          <p class="extra__texto">Paga tu tratamiento hasta en 12 meses sin intereses, con cuotas que te encajen.</p>
+        </li>
+        <li>
+          <img class="extra__foto" src="img/extras/urgencias.webp" width="800" height="450" loading="lazy" decoding="async" alt="Joven sonriendo aliviado tras una visita de urgencia">
+          <h3 class="extra__titulo">Cita el mismo día en urgencias</h3>
+          <p class="extra__texto">Si te duele algo, llámanos y te hacemos hueco el mismo día para quitarte la molestia cuanto antes.</p>
+        </li>
+      </ul>
+
+      <a class="boton boton--grande" href="#cita">Pide tu primera visita 100&nbsp;% gratis</a>
+
+      <p class="prueba-social">
+        <span class="pila-avatares" aria-hidden="true">
+          <span class="avatar">MG</span><span class="avatar">PR</span><span class="avatar">LS</span>
+        </span>
+        Únete a los más de 6.000 pacientes que ya confían en nosotros
+      </p>
+    </section>
+
+    <section class="galeria" id="galeria">
+      <h2 class="titulo-seccion galeria__titulo">Inspírate con las sonrisas de pacientes que ya disfrutan en Valencia</h2>
+
+      <div class="galeria__filtros" role="group" aria-label="Filtrar por tipo de tratamiento">
+        <button class="galeria__filtro" type="button" data-categoria="todo" aria-pressed="true">Todo</button>
+        <button class="galeria__filtro" type="button" data-categoria="familia" aria-pressed="false">Familia</button>
+        <button class="galeria__filtro" type="button" data-categoria="ortodoncia" aria-pressed="false">Ortodoncia</button>
+        <button class="galeria__filtro" type="button" data-categoria="implantes" aria-pressed="false">Implantes</button>
+        <button class="galeria__filtro" type="button" data-categoria="estetica" aria-pressed="false">Estética</button>
+      </div>
+
+      <ul class="galeria__mosaico">
+        <li data-categoria="estetica"><img src="img/galeria/estetica-1.webp" width="800" height="533" loading="lazy" decoding="async" alt="Mujer riendo con una sonrisa radiante"></li>
+        <li data-categoria="familia"><img src="img/resenas/familia.webp" width="800" height="533" loading="lazy" decoding="async" alt="Padre sonriendo junto a su hija"></li>
+        <li data-categoria="ortodoncia"><img src="img/resenas/ortodoncia.webp" width="800" height="533" loading="lazy" decoding="async" alt="Mujer joven riendo con una gran sonrisa"></li>
+        <li data-categoria="implantes"><img src="img/resenas/implante.webp" width="800" height="533" loading="lazy" decoding="async" alt="Mujer mayor sonriendo con confianza"></li>
+        <li data-categoria="familia"><img src="img/galeria/familia-2.webp" width="800" height="533" loading="lazy" decoding="async" alt="Niño riendo en la calle"></li>
+        <li data-categoria="estetica"><img src="img/galeria/estetica-2.webp" width="800" height="533" loading="lazy" decoding="async" alt="Hombre sonriendo con dientes blancos"></li>
+        <li data-categoria="ortodoncia"><img src="img/galeria/ortodoncia-2.webp" width="800" height="533" loading="lazy" decoding="async" alt="Niño sonriendo"></li>
+        <li data-categoria="implantes"><img src="img/galeria/implantes-2.webp" width="800" height="533" loading="lazy" decoding="async" alt="Mujer mayor sonriendo con gafas"></li>
+      </ul>
+
+      <a class="boton boton--grande" href="#cita">Pide tu primera visita 100&nbsp;% gratis</a>
+
+      <p class="prueba-social">
+        <span class="pila-avatares" aria-hidden="true">
+          <span class="avatar">MG</span><span class="avatar">PR</span><span class="avatar">LS</span>
+        </span>
+        Únete a los más de 6.000 pacientes que ya confían en nosotros
+      </p>
+    </section>
+
+    <section class="faq" id="preguntas">
+      <h2 class="titulo-seccion faq__titulo">Preguntas frecuentes</h2>
+
+      <div class="faq__lista">
+        <details class="pregunta">
+          <summary>¿Cuánto cuesta la primera visita?</summary>
+          <p>Nada. La primera revisión y el diagnóstico son 100&nbsp;% gratis y sin compromiso: la doctora te revisa, te explica lo que ve y te dice qué necesitas. Si no te encaja, no pasa nada.</p>
+        </details>
+        <details class="pregunta">
+          <summary>¿Me va a doler?</summary>
+          <p>Cuidamos que no sientas dolor. Te explicamos cada paso antes de hacerlo, vamos a tu ritmo y paramos cuando lo necesites. Si tienes miedo, cuéntanoslo al pedir cita y lo tendremos en cuenta.</p>
+        </details>
+        <details class="pregunta">
+          <summary>¿Y si el precio cambia durante el tratamiento?</summary>
+          <p>No cambia. Te damos el plan y el precio cerrado por escrito antes de empezar, y solo varía si tú pides cambios en el tratamiento.</p>
+        </details>
+        <details class="pregunta">
+          <summary>¿Cuánto dura un tratamiento?</summary>
+          <p>Depende de cada caso, y te lo decimos por escrito antes de empezar. Una limpieza o un empaste se hacen en una cita, y tratamientos como la ortodoncia o los implantes se planifican por fases.</p>
+        </details>
+        <details class="pregunta">
+          <summary>¿Podéis financiar el tratamiento?</summary>
+          <p>Sí. Ofrecemos financiación sin intereses hasta 12 meses para que puedas cuidar tu sonrisa sin que se resienta tu bolsillo. Te lo explicamos en la primera visita.</p>
+        </details>
+        <details class="pregunta">
+          <summary>¿Atendéis urgencias?</summary>
+          <p>Sí. Si tienes dolor, un golpe o una pieza rota, llámanos y te hacemos hueco el mismo día. Fuera de horario, llama igualmente y te decimos cómo actuar.</p>
+        </details>
+        <details class="pregunta">
+          <summary>¿Trabajáis con seguros dentales?</summary>
+          <p>Trabajamos con varias aseguradoras. Escríbenos con el nombre de tu seguro y te confirmamos qué cubre antes de ir.</p>
+        </details>
+        <details class="pregunta">
+          <summary>¿Qué diferencia hay entre la ortodoncia invisible y los brackets?</summary>
+          <p>La invisible usa alineadores transparentes que casi no se notan y se quitan para comer y cepillarse; los brackets van fijos. En la revisión te explicamos cuál encaja mejor contigo.</p>
+        </details>
+        <details class="pregunta">
+          <summary>¿Cuánto duran los implantes?</summary>
+          <p>Con una buena higiene y revisiones periódicas pueden durar muchos años. Te explicamos qué cuidados necesitan en cada caso durante la primera visita.</p>
+        </details>
+        <details class="pregunta">
+          <summary>¿Atendéis a niños?</summary>
+          <p>Sí. Hacemos odontopediatría y les explicamos todo jugando, para que pierdan el miedo desde pequeños.</p>
+        </details>
+        <details class="pregunta">
+          <summary>¿Qué pasa después de pedir cita?</summary>
+          <p>Te respondemos por WhatsApp o por teléfono para acordar el día y la hora de tu primera visita. Vienes, te revisamos, te damos el plan y el precio por escrito y decides con calma, sin presión.</p>
+        </details>
+      </div>
+
+      <a class="boton boton--grande" href="#cita">Pide tu primera visita 100&nbsp;% gratis</a>
+
+      <p class="prueba-social">
+        <span class="pila-avatares" aria-hidden="true">
+          <span class="avatar">MG</span><span class="avatar">PR</span><span class="avatar">LS</span>
+        </span>
+        Únete a los más de 6.000 pacientes que ya confían en nosotros
+      </p>
+    </section>
+
+    <section class="reserva" id="cita">
+      <img class="reserva__fondo" src="img/hero-clinica.webp" width="1600" height="900" loading="lazy" decoding="async" alt="">
+
+      <div class="reserva__interior">
+        <div class="reserva__tarjeta reserva__intro">
+          <p class="valoracion">
+            <svg class="valoracion__google" aria-hidden="true"><use href="#icono-google"/></svg>
+            <span class="estrellas" aria-hidden="true">★★★★★</span>
+            <span><strong>4,8/5</strong> en 214 reseñas</span>
+          </p>
+          <h2 class="titulo-seccion reserva__titulo">Consigue la sonrisa que siempre has querido y empieza a disfrutarla</h2>
+          <p class="reserva__texto">Pide tu primera visita gratis y te respondemos en menos de 24 horas (en horario laboral) para acordar tu cita. La Dra. Climent te acompaña desde la primera revisión hasta tus controles, sin prisas ni sorpresas.</p>
+          <a class="telefono reserva__telefono" href="tel:+34600000000">
+            <span class="telefono__icono" aria-hidden="true"><svg><use href="#icono-telefono"/></svg></span>
+            <span>600 000 000</span>
+          </a>
+        </div>
+
+        <div class="reserva__tarjeta reserva__formulario">
+          <h3 class="reserva__formulario-titulo">Pide tu primera visita 100&nbsp;% GRATIS</h3>
+          <ul class="garantias garantias--columna">
+            <li>Revisión y diagnóstico gratis</li>
+            <li>Plan y precio cerrado por escrito</li>
+            <li>Sin prisas ni compromiso</li>
+          </ul>
+
+          <form class="formulario" id="formulario-reserva" name="cita" action="https://formspree.io/f/xjygazly" method="POST" novalidate>
+            <p class="formulario__trampa" aria-hidden="true"><label>No rellenes esto: <input name="_gotcha" tabindex="-1" autocomplete="off"></label></p>
+            <div class="campo">
+              <label for="nombre">Nombre completo*</label>
+              <input id="nombre" name="nombre" type="text" autocomplete="name" required>
+              <p class="campo__error">Escribe tu nombre.</p>
+            </div>
+            <div class="campo">
+              <label for="telefono">Teléfono*</label>
+              <input id="telefono" name="telefono" type="tel" autocomplete="tel" inputmode="tel" pattern="[+0-9\s]{9,15}" required>
+              <p class="campo__error">Escribe un teléfono válido, por ejemplo 612 345 678.</p>
+            </div>
+            <div class="campo">
+              <label for="tipo">¿Qué necesitas?*</label>
+              <select id="tipo" name="tipo" required>
+                <option value="" selected disabled>Elige una opción</option>
+                <option>Primera revisión gratis</option>
+                <option>Limpieza o empaste</option>
+                <option>Ortodoncia</option>
+                <option>Implantes</option>
+                <option>Estética dental</option>
+                <option>Revisión para mi hijo/a</option>
+                <option>Urgencia dental</option>
+                <option>Aún no lo tengo claro</option>
+              </select>
+              <p class="campo__error">Elige una opción.</p>
+            </div>
+            <div class="campo">
+              <label for="fecha">Fecha preferida (opcional)</label>
+              <input id="fecha" name="fecha" type="date">
+            </div>
+            <div class="campo">
+              <label for="mensaje">Mensaje (opcional)</label>
+              <textarea id="mensaje" name="mensaje" rows="3"></textarea>
+            </div>
+
+            <div class="campo campo--casilla">
+              <input id="privacidad" name="privacidad" type="checkbox" required>
+              <label for="privacidad">He leído y acepto la <a href="privacidad.html" target="_blank">política de privacidad</a>.*</label>
+              <p class="campo__error">Necesitamos tu permiso para contactarte.</p>
+            </div>
+
+            <p class="formulario__error" id="reserva-error" role="alert" hidden>No hemos podido enviar tu solicitud. Prueba otra vez o llámanos al 600 000 000.</p>
+            <button class="boton formulario__enviar" type="submit">Pide tu primera visita gratis</button>
+          </form>
+
+          <div class="formulario__gracias" id="reserva-gracias" hidden tabindex="-1">
+            <h3>¡Gracias! Ya tenemos tu solicitud</h3>
+            <p>Te respondemos en menos de 24 horas (en horario laboral) para acordar el día de tu primera visita gratuita.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="pie__interior">
+      <div class="pie__marca">
+        <a class="logo" href="#inicio" aria-label="Clínica Dental Turia, volver al inicio">
+          <span class="logo__marca" aria-hidden="true">T</span>
+          <span class="logo__texto">Clínica Dental <strong>Turia</strong></span>
+        </a>
+        <p class="pie__lema">Cuidamos la sonrisa de toda tu familia en Valencia, con primera visita gratis, plan y precio cerrado por escrito y el mismo equipo siempre.</p>
+        <ul class="pie__contacto">
+          <li>
+            <svg aria-hidden="true"><use href="#icono-telefono"/></svg>
+            <span>Llámanos: <a href="tel:+34600000000">600 000 000</a></span>
+          </li>
+          <li>
+            <svg aria-hidden="true"><use href="#icono-email"/></svg>
+            <span>Escríbenos: <a href="mailto:hola@clinicadentalturia.example">hola@clinicadentalturia.example</a></span>
+          </li>
+        </ul>
+        <ul class="pie__redes">
+          <li><a href="https://www.instagram.com/clinicadentalturia" target="_blank" rel="noopener" aria-label="Clínica Dental Turia en Instagram (se abre en otra pestaña)"><svg aria-hidden="true"><use href="#icono-instagram"/></svg></a></li>
+        </ul>
+      </div>
+
+      <nav class="pie__columna" aria-label="Secciones">
+        <h2 class="pie__titulo">Clínica Dental Turia</h2>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#como-trabajamos">Cómo trabajamos</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#preguntas">Preguntas</a></li>
+          <li><a href="#cita">Pide tu primera visita gratis</a></li>
+          <li><a href="privacidad.html">Política de privacidad</a></li>
+          <li><a href="aviso-legal.html">Aviso legal</a></li>
+        </ul>
+      </nav>
+
+      <div class="pie__columna">
+        <h2 class="pie__titulo">Horario y ubicación</h2>
+        <ul>
+          <li>Lunes a viernes, de 9:00 a 20:00</li>
+          <li>Sábados, de 9:00 a 13:00</li>
+          <li>Urgencias: llámanos</li>
+          <li>Calle Ficticia 1, 46004 Valencia</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="pie__legal">© 2026 Clínica Dental Turia S.L.P. · CIF B00000000. Web de demostración con datos ficticios. Todos los derechos reservados.</p>
+  </footer>
+  <script src="js/scroll-suave.js" defer></script>
+  <script src="js/galeria.js" defer></script>
+  <script src="js/reserva.js" defer></script>
+</body>
+</html>
